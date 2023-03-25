@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T10:45:07.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.0" etag="9OrwtRiZYbTx6CLEv1M1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T11:00:16.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="twBcRljZfhOivy4zCiCr" version="21.1.0" type="github">
   <diagram name="Страница 1" id="6E57RSTuzNmrMs7qGla-">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-1" value="Человек у банкомата&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-2" value="Вставить карточку в банкомат" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-1" target="R3Tq8pZB7kr-uuwWZMaQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-2" target="R3Tq8pZB7kr-uuwWZMaQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="340" as="sourcePoint" />
+            <mxPoint x="860" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-2" target="R3Tq8pZB7kr-uuwWZMaQ-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="692" y="292" as="sourcePoint" />
+            <mxPoint x="860" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-21" value="Снять деньги&amp;nbsp; карты" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-22" value="Положить деньги на карту" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-23" value="Выбрать сумму" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-21" target="R3Tq8pZB7kr-uuwWZMaQ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="290" as="sourcePoint" />
+            <mxPoint x="1090" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-22" target="R3Tq8pZB7kr-uuwWZMaQ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="200" as="sourcePoint" />
+            <mxPoint x="1090" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-26" value="Получить чек и карточку обратно" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Tq8pZB7kr-uuwWZMaQ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3Tq8pZB7kr-uuwWZMaQ-23" target="R3Tq8pZB7kr-uuwWZMaQ-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="320" as="sourcePoint" />
+            <mxPoint x="1250" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
