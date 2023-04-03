@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T17:02:15.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="nbC5ZeSQ-_4wXbFAKcyC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T17:09:22.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="x_yyRJfqp6z82o68Cv6P" version="21.1.4" type="github">
   <diagram name="Страница 1" id="px-x9AvZWVq6tvr_l3GK">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="yFKLc6s3ddHaABbsMkwG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334.93" y="702.5" as="sourcePoint" />
+            <mxPoint x="334.93" y="157.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="yFKLc6s3ddHaABbsMkwG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="700" as="sourcePoint" />
+            <mxPoint x="460" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-1" value="Клиент банкомата&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-3" value="Карточка" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="105" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-4" value="Банкомат" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="105" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.083;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yFKLc6s3ddHaABbsMkwG-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-17" value="Вставит карточку" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yFKLc6s3ddHaABbsMkwG-13">
+          <mxGeometry x="-0.2853" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-15" value="&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="220.19000000000005" as="sourcePoint" />
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-18" value="Ввести пинкод" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yFKLc6s3ddHaABbsMkwG-15">
+          <mxGeometry x="-0.0311" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFKLc6s3ddHaABbsMkwG-19" value="Проверка пинкода" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="270" />
+            </Array>
+            <mxPoint x="625" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
